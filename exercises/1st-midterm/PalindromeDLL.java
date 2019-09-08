@@ -91,8 +91,6 @@ public class PalindromeDLL {
         DLLNode<Integer> front = list.getFirst();
         DLLNode<Integer> back = list.getLast();
         while (front != null && back != null) {
-            System.out.println("front: " + front);
-            System.out.println("back: " + back);
             if (!front.element.equals(back.element))
                 return -1;
 
