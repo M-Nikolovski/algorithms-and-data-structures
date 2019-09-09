@@ -42,7 +42,6 @@ public class Range {
     }
 
     public static void main(String[] args) throws Exception {
-        int i,j,k;
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
